@@ -34,10 +34,10 @@ pip install pillow
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/image-metadata-analysis.git
+   git clone https://github.com/00112244/Metadata-Analyzer.git
    ```
    ```bash
-    cd Metadata Analyzer
+    cd Metadata-Analyzer
    ``` 
 
 2. Run the tool with your preferred image file path:
@@ -53,7 +53,7 @@ pip install pillow
 To analyze metadata and view information from an image, use the following command:
 
 ```bash
-python image_metadata_analysis.py -i [image_path]
+python Metadata_Analyzer.py -i [image_path]
 ```
 
 - This command will display information about the image's metadata, GPS coordinates, and timestamp analysis.
@@ -63,7 +63,7 @@ python image_metadata_analysis.py -i [image_path]
 If you want to save the metadata information to a file, utilize the `-o` or `--output` option:
 
 ```bash
-python image_metadata_analysis.py  [image_path] -o [file name]
+python Metadata_Analyzer.py [image_path] -o [file name]
 ```
 - This commnad will analyze the image and directly save the output to the given filename.
 
