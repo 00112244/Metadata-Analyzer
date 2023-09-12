@@ -60,7 +60,7 @@ python Metadata_Analyzer.py -i [image_path]
 
 ### Analyzing and Save the output
 
-If you want to save the metadata information to a file, utilize the `-o` or `--output` option:
+If you want to save the metadata information as a file, utilize the `-o` or `--output` option:
 
 ```bash
 python Metadata_Analyzer.py [image_path] -o [file name]
